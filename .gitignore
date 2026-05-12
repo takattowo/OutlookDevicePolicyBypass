@@ -11,4 +11,6 @@ local.properties
 /app/build
 *.keystore
 *.jks
+*.b64
 keystore.properties
+keys/
