@@ -1,0 +1,3 @@
+-keep class com.outlookbypass.xposed.ModuleMain { *; }
+-keepattributes RuntimeVisibleAnnotations
+-keep,allowobfuscation class * extends io.github.libxposed.api.XposedModule

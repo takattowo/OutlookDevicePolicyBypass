@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="module_label">Outlook Device Policy Bypass</string>
+    <string name="module_description">Bypass the Microsoft Outlook MDM device-policy enrollment check.</string>
+</resources>
