@@ -8,6 +8,8 @@ LSPosed module that kills the MDM device-policy enrollment prompt in **Microsoft
 
 Lets you use Outlook on Android without having to set Outlook as Device Admin.
 
+<img width="1440" height="2169" alt="image" src="https://github.com/user-attachments/assets/95e9ec2e-5cf6-4e8d-94af-9f35a6c0b13f" />
+
 Tested on Android 15 / 16 and Outlook 5.2+.
 
 Built against the modern [libxposed API 101](https://github.com/libxposed/api). Only loads inside the Outlook process (static scope), nothing else gets touched.
