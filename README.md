@@ -55,7 +55,7 @@ If `KEYSTORE_BASE64` is not set the build falls back to the Android debug keysto
 
 ## Build (local)
 
-Requires JDK 21 and Gradle 8.13+ (or the wrapper).
+Requires JDK 21 and Gradle 9.1.0+ (or the wrapper).
 
 ```bash
 # first time only, to create gradle/wrapper/gradle-wrapper.jar
