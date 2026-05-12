@@ -1,5 +1,7 @@
 # Outlook Device Policy Bypass
 
+[![ko-fi](https://img.shields.io/badge/Support_on-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/takatto)
+
 LSPosed module that kills the MDM device-policy enrollment prompt in **Microsoft Outlook for Android** (`com.microsoft.office.outlook`).
 
 Lets you use Outlook on Android without having to make your phone a Managed/Admin Device.
@@ -24,3 +26,7 @@ Open an issue or PR. Bug reports with the Outlook version + Android version are 
 ## Build (CI)
 
 `.github/workflows/build.yml` builds a signed release APK on every push and PR. Tag a commit `vX.Y.Z` to also publish a GitHub Release.
+
+## Support
+
+If this saved you from corporate MDM hell, [buy me a coffee](https://ko-fi.com/takatto) ☕
