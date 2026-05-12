@@ -2,8 +2,6 @@ package com.outlookbypass.xposed;
 
 import android.util.Log;
 
-import androidx.annotation.NonNull;
-
 import java.lang.reflect.Method;
 
 import io.github.libxposed.api.XposedModule;
@@ -16,16 +14,16 @@ public class ModuleMain extends XposedModule {
             "com.microsoft.office.outlook.olmcore.managers.mdm.DevicePolicy";
 
     @Override
-    public void onModuleLoaded(@NonNull ModuleLoadedParam param) {
+    public void onModuleLoaded(ModuleLoadedParam param) {
         log(Log.INFO, TAG, "module loaded in " + param.getProcessName());
     }
 
     @Override
-    public void onPackageLoaded(@NonNull PackageLoadedParam param) {
+    public void onPackageLoaded(PackageLoadedParam param) {
         if (!TARGET_PKG.equals(param.getPackageName())) return;
         if (!param.isFirstPackage()) return;
 
-        ClassLoader cl = param.getClassLoader();
+        ClassLoader cl = param.getDefaultClassLoader();
         Class<?> devicePolicy;
         try {
             devicePolicy = Class.forName(DEVICE_POLICY_CLASS, false, cl);
