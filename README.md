@@ -11,9 +11,9 @@ Built against the modern [libxposed API 101](https://github.com/libxposed/api). 
 ## Install
 
 1. Grab the APK from the [Releases](../../releases) page.
-2. Install it: `adb install OutlookDevicePolicyBypass-release.apk` (or just open the file on the phone).
+2. Install it.
 3. Open LSPosed Manager → enable the module → make sure Outlook is in scope.
-4. Force-stop Outlook, reopen it, sign in normally. No more "Activate Device Admin" screen.
+4. Force-stop Outlook, and enjoy!
 
 If something looks off: `adb logcat -s OutlookPolicyBypass`.
 
