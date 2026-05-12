@@ -2,6 +2,8 @@
 
 [![ko-fi](https://img.shields.io/badge/Support_on-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/takatto)
 
+适用于 Android 的 LSPosed 模块，可绕过 Microsoft Outlook 的 MDM 设备管理/管理员设备要求，无需将手机注册为受管设备即可正常使用 Outlook。已测试支持 Android 15/16 与 Outlook 5.2+。
+
 LSPosed module that kills the MDM device-policy enrollment prompt in **Microsoft Outlook for Android** (`com.microsoft.office.outlook`).
 
 Lets you use Outlook on Android without having to make your phone a Managed/Admin Device.
