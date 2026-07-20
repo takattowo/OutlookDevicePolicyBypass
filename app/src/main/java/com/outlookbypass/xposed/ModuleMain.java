@@ -19,11 +19,10 @@ public class ModuleMain extends XposedModule {
     }
 
     @Override
-    public void onPackageLoaded(PackageLoadedParam param) {
+    public void onPackageReady(PackageReadyParam param) {
         if (!TARGET_PKG.equals(param.getPackageName())) return;
-        if (!param.isFirstPackage()) return;
 
-        ClassLoader cl = param.getDefaultClassLoader();
+        ClassLoader cl = param.getClassLoader();
         Class<?> devicePolicy;
         try {
             devicePolicy = Class.forName(DEVICE_POLICY_CLASS, false, cl);
